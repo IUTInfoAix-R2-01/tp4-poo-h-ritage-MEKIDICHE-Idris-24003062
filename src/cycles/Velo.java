@@ -42,6 +42,7 @@ public class Velo {
 	public void setDiamRoue (double diamRoue) {
 		this.diamRoue = diamRoue;
 	}
+	@Override
 	public String toString() {
 		return "Velo [ braquet=" + braquet + ",diamRoue =" + diamRoue +"]"; 
 	}
