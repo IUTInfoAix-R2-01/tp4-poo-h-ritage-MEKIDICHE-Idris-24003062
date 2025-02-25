@@ -25,10 +25,10 @@ public class Staff extends Person {
 	}
 	@Override
 	public String toString () {
-		return "Staff[" + super.toString() + ",school =" + school + ",pay =" + pay + "]";
+		return "Staff[" + super.toString() + ", school =" + school + ", pay =" + pay + "]";
 	}
 	public static void main(String[] args) {
-		Staff V1 = new Staff ("idris","rue de la paix","chez moi",10.5);
+		Staff V1 = new Staff ("idris","rue de la paix","iut aix",10.5);
 		System.out.println(V1);
 	}
 }
