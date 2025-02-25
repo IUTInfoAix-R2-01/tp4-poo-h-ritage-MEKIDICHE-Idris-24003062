@@ -14,7 +14,7 @@ public class Person {
 		return name;
 	}
 	public String getAddress() {
-		return name;
+		return address;
 	}
 	public void setAddress(String address) {
 		this.address = this.address;
