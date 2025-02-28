@@ -8,7 +8,7 @@ public class Dog extends Mammal{
 	public void greets() {
         System.out.println("Woof");
     }
-	public void greets(Dog another)) {
+	public void greets(Dog another) {
         System.out.println("Woooof");
     }
 
@@ -17,9 +17,12 @@ public class Dog extends Mammal{
 		return "Dog : " + super.toString();
 	}
 	public static void main(String[] args) {
-		Dog V2 = new Dog ("michel");
-		System.out.println(V2.toString());
+		Dog dog1 = new Dog ("michel");
+		Dog dog2 = new Dog ("miclael");
+		dog1.greets();
+		dog1.greets(dog2);
+		System.out.println(dog1.toString());
 	}
 
 }
-}
+

@@ -15,7 +15,7 @@ public class Cat extends Mammal{
 	}
 	public static void main(String[] args) {
 		Cat V2 = new Cat ("michel");
-		V2.
+		V2.greets();
 		System.out.println(V2.toString());
 	}
 
